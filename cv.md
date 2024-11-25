@@ -36,3 +36,20 @@ const filterAdv = (adv, { type, priceRange, rooms, guests, features }) => {
 	return !adv.offer.features || !features.every((feature) => adv.offer.features.includes(feature));
 };
 ```
+
+## Education
+
+- **Ural Federal University**
+  - _Faculty of Economics_
+- **Courses**
+  - _[HTML Academy Frontend developer](https://htmlacademy.ru/profession/frontender)_
+  - _[WEB-developer 2021](https://www.udemy.com/course/webdeveloper/)_
+- **Self-education**
+  - _[Modern JavaScript Tutorial](https://learn.javascript.ru/)_
+  - _[WEB Standards](https://web-standards.ru/)_
+  - _Different YouTube, Telegram channels_
+
+## Languages
+
+- _Russian - native_
+- _English - Upper Intermediate_
