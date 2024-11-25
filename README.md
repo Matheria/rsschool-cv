@@ -1,3 +1,1 @@
-# CV
-
-<https://matheria.github.io/rsschool-cv/cv>
+https://matheria.github.io/rsschool-cv/cv
