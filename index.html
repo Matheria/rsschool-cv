@@ -1,11 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CV</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergey Savinkov CV</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+<body class="page-body">
+	<div class="container">
+		<main>
+			<header class="main-header">
+				<img class="main-header__photo" src="img/profile_photo.jpg" width="200" height="200" alt="Profile photo">
+				<h1 class="title">Sergey Savinkov</h1>
+				<h3 class="title__text">Junior Frontend Developer</h3>
+				<ul class="contacts list">
+					<li class="list__item">Telegram: <a class="link" href="https://t.me/Ishalldevour">@Ishalldevour</a></li>
+					<li class="list__item">Email: <a class="link" href="mailto:sensenevercame@gmail.com">sensenevercame@gmail.com</a></li>
+				</ul>
+			</header>
+			<section class="section">
+				<h2 class="subtitle">About</h2>
+				<p>I want to grow as frontend JS developer.</p>
+			</section>
+			<section class="section">
+				<h2 class="subtitle">Skills</h2>
+				<ul class="list">
+					<li class="list__item"> - HTML</li>
+					<li class="list__item"> - CSS (SASS, LESS)</li>
+					<li class="list__item"> - Basic JS</li>
+					<li class="list__item"> - Git</li>
+					<li class="list__item"> - Gulp</li>
+					<li class="list__item"> - BEM</li>
+					<li class="list__item"> - Figma, Photoshop</li>
+				</ul>
+			</section>
+			<section class="section">
+				<h2 class="subtitle">Education</h2>
+				<h3 class="title__text">Courses</h3>
+				<p>Frontend Developer - <a class="link" href="https://htmlacademy.ru/study"> HTML Academy</a></p>
+				<p></p>
+				<h3 class="title__text">Self-education</h3>
+				<ul class="list">
+					<li class="list__item">
+						- <a class="link" href="https://learn.javascript.ru/">Modern JavaScript Tutorial</a>
+					</li>
+					<li class="list__item">
+						- <a class="link" href="https://web-standards.ru/">WEB Standards</a>
+					</li>
+					<li class="list__item"> - Different YouTube, Telegram channels</li>
+				</ul>
+			</section>
+			<section class="section">
+				<h2 class="subtitle">Sample code</h2>
+				<!--         <pre>
+          <code class="code">
+            const filterAdv = (adv, {type, priceRange, rooms, guests, features}) =&gt; {
+                const [minPrice, maxPrice] = priceRange;
 
+                if (type !== 'any' && adv.offer.type !== type) {
+                  return false;
+                }
+
+                if (guests !== 'any' && adv.offer.guests !== Number(guests)) {
+                  return false;
+                }
+
+                if (rooms !== 'any' && adv.offer.rooms !== Number(rooms)) {3
+                  return false;
+                }
+
+                if (adv.offer.price &lt; minPrice || adv.offer.price &gt; maxPrice) {
+                  return false;
+                }
+
+                return !adv.offer.features || !features.every((feature) =&gt; adv.offer.features.includes(feature));
+              };
+          </code>
+        </pre> -->
+			</section>
+			<section class="section">
+				<h2 class="subtitle">Languages</h2>
+				<p> - Russian</p>
+				<p> - English (B2)</p>
+			</section>
+		</main>
+		<footer class="page-footer">
+			<a class="link" href="https://github.com/angryOwl">
+				<img src="/img/github.svg" width="33" height="33" alt="Github logo">
+			</a>
+			<a class="link" href="https://rs.school/js/">
+				<img src="/img/rs_school_js.svg" width="86" height="33" alt="RS School logo">
+			</a>
+			<time class="time" datetime="2024-11-25">2024</time>
+		</footer>
+	</div>
 </body>
 </html>
