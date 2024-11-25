@@ -1,0 +1,86 @@
+*,
+::before,
+::after {
+	box-sizing: border-box;
+}
+
+.link {
+	color: rgb(8, 180, 248);
+	text-decoration: none;
+}
+
+.link:hover {
+	color: lightcoral;
+}
+
+.list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.list__item {
+	margin-left: 15px;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.page-body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.5;
+	color: black;
+	background-color: white;
+}
+
+.contacts {
+	margin-bottom: 70px;
+}
+
+.section {
+	margin-bottom: 25px;
+}
+
+.title {
+	margin: 0;
+	font-size: 24px;
+}
+
+.subtitle {
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: brown;
+	border-bottom: 1px solid lightgray;
+}
+
+.title__text {
+	margin: 0;
+	margin-bottom: 10px;
+	font-size: 16px;
+	color: brown;
+}
+
+.main-header__photo {
+	float: right;
+	vertical-align: middle;
+	max-width: 100%;
+	border-radius: 5px;
+}
+
+.page-footer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.time {
+	font-size: 16px;
+	font-weight: bold;
+}
